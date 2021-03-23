@@ -4,5 +4,4 @@ create table products
     name  varchar(255) not null,
     price int,
     primary key (id)
-)
-    GO
+);

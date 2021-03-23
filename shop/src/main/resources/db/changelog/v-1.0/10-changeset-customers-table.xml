@@ -8,7 +8,6 @@
     <changeSet id="2" author="michael_d">
         <sqlFile dbms="postgresql"
                  encoding="UTF-8"
-                 endDelimiter="\nGO"
                  relativeToChangelogFile="true"
                  splitStatements="true"
                  stripComments="true"
@@ -16,7 +15,6 @@
         <rollback>
             <sqlFile dbms="postgresql"
                      encoding="UTF-8"
-                     endDelimiter="\nGO"
                      relativeToChangelogFile="true"
                      splitStatements="true"
                      stripComments="true"

@@ -7,5 +7,4 @@ create table orders
     executor_id  bigint       not null,
     customer_id  bigint       not null,
     primary key (id)
-)
-    GO
+);

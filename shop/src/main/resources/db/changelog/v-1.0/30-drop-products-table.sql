@@ -1,2 +1,1 @@
-drop table products
-    GO
+drop table products;

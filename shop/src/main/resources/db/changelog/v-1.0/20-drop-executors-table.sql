@@ -1,2 +1,1 @@
-drop table executors
-    GO
+drop table executors;

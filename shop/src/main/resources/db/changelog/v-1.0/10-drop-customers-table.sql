@@ -1,2 +1,1 @@
-drop table customers
-    GO
+drop table customers;

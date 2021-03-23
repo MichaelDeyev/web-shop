@@ -1,2 +1,1 @@
-drop table orders
-    GO
+drop table orders;
