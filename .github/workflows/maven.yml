@@ -21,6 +21,10 @@ jobs:
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
       with:
-        java-version: 1.8
+#         repository: web-shop/shop
+        java-version: 1.11
+    - name: Change directory
+      run: cd web-shop/shop
+      
     - name: Build with Maven
-      run: cd web-shop/shop mvn -B clean package --file pom.xml
+      run: mvn -B clean package --file pom.xml
