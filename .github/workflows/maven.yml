@@ -23,12 +23,12 @@ jobs:
         image: postgres
         # Provide the password for postgres
         env:
-#          POSTGRES_USER: postgres
-#          POSTGRES_PASSWORD: 123
-          SPRING_DATASOURCE_URLjdbc: postgresql://client-db:5432/nfo-client
-          SPRING_DATASOURCE_USERNAME: postgres
-          SPRING_DATASOURCE_PASSWORD: 123
-          SPRING_JPA_HIBERNATE_DDL_AUTO: validate
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: 123
+#          SPRING_DATASOURCE_URLjdbc: postgresql://client-db:5432/nfo-client
+#          SPRING_DATASOURCE_USERNAME: postgres
+#          SPRING_DATASOURCE_PASSWORD: 123
+#          SPRING_JPA_HIBERNATE_DDL_AUTO: validate
         # Maps tcp port 5432 on service container to the host
         ports:
           - 5432:5432
